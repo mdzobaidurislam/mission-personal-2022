@@ -2,28 +2,22 @@
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Inter', sans-serif;
 }
-
 a {
     text-decoration: none;
 }
-
 h1,
 h2 {
     font-size: 50px;
 }
-
 img {
     width: 100%;
 }
-
 section {
     padding: 60px 0px;
 }
-
 p {
     color: rgb(124, 121, 118);
     margin: 14px 0px;
@@ -31,46 +25,37 @@ p {
     text-shadow: rgba(247, 103, 1, 0.33) 0px 0px 20px;
     font-size: 20px;
 }
-
 .container {
     width: 1140px;
     margin: 0 auto;
 }
-
 .row {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-
 .col_lg_50 {
     width: 50%;
 }
-
 .col_lg_33 {
     width: 33.33%;
 }
-
 .col_lg_40 {
-    width: 45%;
+    width: 40%;
 }
-
 .col_lg_60 {
     width: 60%;
 }
-
 .col_lg_100 {
     width: 100%;
 }
-
 .text_align_left {
     text-align: left
 }
-
 .text_align_right {
     text-align: right
 }
-
 .btn {
     text-transform: uppercase;
     background: linear-gradient(45deg, #293565, #1e408b);
@@ -84,16 +69,13 @@ p {
     border: 2px solid #203f86;
     transition: all 0.5s ease-in-out 0s;
 }
-
 .btn:hover {
     background: transparent;
     color: rgb(0, 0, 0);
 }
-
 .img_85 img {
     width: 85%;
 }
-
 /* common start */
 .section_header h2 {
     text-align: center;
@@ -101,38 +83,30 @@ p {
     font-family: 'Fraunces', serif;
     font-weight: 700;
 }
-
 .section_header h2 span {
     color: #0bacda;
 }
-
 .common_box_img {
     position: relative;
     z-index: 1;
 }
-
 .common_box_des {
     padding-right: 15px;
 }
-
 .common_box_des h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 50px;
     color: #333333;
 }
-
 /* common end */
-
 /* header start  */
 #header {
     padding-top: 70px;
 }
-
 .header_box span {
     color: #0bacda;
 }
-
 .header_box h1 {
     position: relative;
     display: inline-block;
@@ -142,7 +116,6 @@ p {
     font-size: 66px;
     font-family: 'Fraunces', serif;
 }
-
 .header_box h1::before {
     content: "";
     width: 4px;
@@ -152,28 +125,21 @@ p {
     position: absolute;
     top: 17px;
 }
-
 .header_box p {
     padding-right: 110px;
 }
-
 .header_box .extra_text {
     font-size: 16px;
     margin-top: 45px;
 }
-
 .header_img img {
     width: 80%;
 }
-
 .header_img {
     text-align: right;
 }
-
 /* header end  */
-
 /* mission start  */
-
 .mission_items {
     margin: 15px;
     background: #f3f3f3;
@@ -193,26 +159,21 @@ p {
 .mission_item_bg2 .mission_des p {
     color: #fff;
 }
-
 .mission_item_bg3 {
     background: linear-gradient(45deg, #d1ecf4, #ffad5a);
 }
 .mission_items .icon img {
     width: 130px;
 }
-
 .mission_des {
     margin-top: 15px;
     padding-left: 15px;
 }
-
 .mission_des p {
     font-size: 18px;
     font-weight: 400;
 }
-
 /* mission end */
-
 /* develop start */
 .developer_shape img {
     position: absolute;
@@ -221,13 +182,11 @@ p {
     z-index: -1;
     top: 20%;
 }
-
 /* develop end */
 /* community start */
 #community {
     padding-bottom: 160px;
 }
-
 #community .community_shape img {
     position: absolute;
     width: 45%;
@@ -235,76 +194,34 @@ p {
     bottom: -24%;
     right: -20%;
 }
-
 /* community end */
-/* blog start */
-#blog {
+/* Services start */
+#service {
     background: #F9F9FF;
 }
-
-.cat {
-    position: absolute;
-    bottom: 0px;
-    background: #0bacda;
-    padding: 6px 25px;
-}
-
-.cat a {
-    color: #fff;
-}
-
-#blog .post_item {
-    position: relative;
+.service_item {
     margin: 15px;
-    background: #fff;
-    box-shadow: 0px 5px 20px 0px rgb(228 230 231 / 72%);
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    transition:all 0.5s;
-    /* overflow: hidden; */
-}
-.post_item:hover{
-    transform: translateY(30px)
-}
-
-.post_thum {
-    overflow: hidden;
-    position: relative;
-}
-
-.post_thum img {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
     transition: all .5s;
 }
-.post_thum:hover img {
-    transform: scale(1.5);
+.service_item:hover {
+    box-shadow: 0px 20px 20px 0px rgb(214 214 214);
 }
-.blog_des {
-    padding: 20px;
+.service_icon i  {
+    font-size: 60px;
+    color: #213d7f;
 }
-.blog_des h3 {
-    color: #293565;
+.service_des h3 {
+    font-size: 20px;
+    margin-top: 25px;
 }
-.blog_des .date {
-    margin: 10px 0;
-    display: inline-block;
-    font-size: 19px;
-    color: #0bacda;
+.service_des p {
+    font-size: 17px;
+    text-shadow: 0 0 black;
 }
-.blog_des .admin_badge {
-    background: #0bacda;
-    color: #fff;
-    padding: 4px 20px;
-    border-radius: 25px;
-    font-size: 14px;
-}
-a.btn.read_more {
-    padding: 9px 20px;
-    font-size: 10px;
-    text-align: center;
-}
-
-/* blog end */
-
+/* service end */
 /* footer start */
 #footer {
     background: #0B0D17;
@@ -312,20 +229,16 @@ a.btn.read_more {
     text-align: center;
     padding: 37px 0;
 }
-
 .copy_right h3 {
     font-size: 35px;
     font-weight: 400;
     font-family: 'Lobster', cursive;
 }
-
 .copy_right h3 span {
     color: rgb(11 172 218);
 }
-
 .copy_right p {
     font-size: 18px;
     color: #6F7179;
 }
-
 /* footer end */
