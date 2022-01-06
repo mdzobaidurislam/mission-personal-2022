@@ -1,3 +1,13 @@
+/*
+
+1.#common 
+1.#header 
+2.#mission 
+3.#develop 
+4.#community 
+5.#service 
+6.#footer
+*/
 * {
     margin: 0px;
     padding: 0px;
@@ -76,7 +86,7 @@ p {
 .img_85 img {
     width: 85%;
 }
-/* common start */
+/* #common start */
 .section_header h2 {
     text-align: center;
     margin: 50px 0;
@@ -99,8 +109,8 @@ p {
     line-height: 50px;
     color: #333333;
 }
-/* common end */
-/* header start  */
+/* #common end */
+/* #header start  */
 #header {
     padding-top: 70px;
 }
@@ -138,8 +148,8 @@ p {
 .header_img {
     text-align: right;
 }
-/* header end  */
-/* mission start  */
+/* #header end  */
+/* #mission start  */
 .mission_items {
     margin: 15px;
     background: #f3f3f3;
@@ -173,8 +183,8 @@ p {
     font-size: 18px;
     font-weight: 400;
 }
-/* mission end */
-/* develop start */
+/* #mission end */
+/* #develop start */
 .developer_shape img {
     position: absolute;
     width: 45%;
@@ -182,8 +192,8 @@ p {
     z-index: -1;
     top: 20%;
 }
-/* develop end */
-/* community start */
+/* #develop end */
+/* #community start */
 #community {
     padding-bottom: 160px;
 }
@@ -194,8 +204,8 @@ p {
     bottom: -24%;
     right: -20%;
 }
-/* community end */
-/* Services start */
+/* #community end */
+/* #service start */
 #service {
     background: #F9F9FF;
 }
@@ -203,7 +213,6 @@ p {
     margin: 15px;
     padding: 20px;
     text-align: center;
-    border: 1px solid #e2e2e2;
     transition: all .5s;
 }
 .service_item:hover {
@@ -221,8 +230,8 @@ p {
     font-size: 17px;
     text-shadow: 0 0 black;
 }
-/* service end */
-/* footer start */
+/* #service end */
+/* #footer start */
 #footer {
     background: #0B0D17;
     color: #fff;
@@ -241,4 +250,4 @@ p {
     font-size: 18px;
     color: #6F7179;
 }
-/* footer end */
+/* #footer end */
