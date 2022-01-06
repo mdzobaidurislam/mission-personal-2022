@@ -77,11 +77,11 @@ p {
     letter-spacing: 1px;
     font-weight: 500;
     border: 2px solid #203f86;
-    transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s;
 }
-.btn:hover {
+.btn:hover  {
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 .img_85 img {
     width: 85%;
